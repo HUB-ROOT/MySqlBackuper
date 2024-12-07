@@ -19,7 +19,7 @@ namespace SqlBackuper
 
         private void button1_Click(object sender, EventArgs e)
         {
-            var passKey = "Code@Doctorsdb@321";
+            var passKey = "YourSecretPassKey";
             if(txtpasskey.Text == passKey)
             {
                 MySQLConnectorApp ma = new MySQLConnectorApp();
